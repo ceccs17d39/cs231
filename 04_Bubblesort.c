@@ -1,5 +1,7 @@
+/*Nithya Venugopal
+  S3 D/* 39
+  Bubblesort*/
 #include <stdio.h>
-
 int bubbleSort(int array[], int size) {
 	int i, j, temp;
 	for (i=size; i>=0; i--) {
