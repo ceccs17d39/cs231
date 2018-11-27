@@ -1,3 +1,8 @@
+/*Nithya Venugopal
+  S3 D 39
+  Representation of polynomial using LL*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
