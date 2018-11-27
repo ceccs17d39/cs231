@@ -1,3 +1,8 @@
+/*Nithya Venugopal
+  S3 D 39
+  Single LL*/
+
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -5,9 +10,11 @@ struct node {
 	int data;
 	struct node *next;
 }*HEADER;
-int deleteAll() {
+int deleteAll() 
+{
 	struct node *ptr = HEADER, *prevPtr;
-	while (ptr != NULL) {
+	while (ptr != NULL) 
+	{
 		prevPtr = ptr;
 		ptr = ptr->next;
 		free(prevPtr);
@@ -17,43 +24,58 @@ int deleteAll() {
 }
 struct node *newNode() {
 	struct node *newptr = malloc(sizeof(struct node));
-	if (newptr == NULL) {
+	if (newptr == NULL) 
+	{
 		printf("Memory overflow");
 		deleteAll();
 		exit(0);
 	}
 	return (newptr);
 }
-int deleteNode(int data) {
+int deleteNode(int data) 
+{
 	struct node *currentNode = HEADER, *previousNode;
-	while(currentNode->next != NULL && currentNode->data != data) {
+	while(currentNode->next != NULL && currentNode->data != data) 
+	{
 		previousNode = currentNode;
 		currentNode = currentNode->next;
 	}
-	if (currentNode->data != data) {
+	if (currentNode->data != data) 
+	{
 		printf("Node not found.\nDeletion failed\n");
-	} else {
+	} 
+	else 
+	{
 		previousNode->next = currentNode->next;
 		free(currentNode);
 	}
 	return (0);
 }
-int deleteFirstNode() {
+int deleteFirstNode() 
+{
 	struct node *currentNode = HEADER->next;
-	if (currentNode == NULL) {
+	if (currentNode == NULL) 
+	{
 		printf("Empty linked list.\nDeletion failed.\n");
-	} else {
+	} 
+	else 
+	{
 		HEADER->next = currentNode->next;
 		free(currentNode);
 	}
 	return (0);
 }
-int deleteLastNode() {
+int deleteLastNode() 
+{
 	struct node *currentNode = HEADER, *previousNode;
-	if (currentNode == NULL) {
+	if (currentNode == NULL) 
+	{
 		printf("Empty linked list.\nDeletion failed.\n");
-	} else {
-		while (currentNode->next != NULL) {
+	} 
+	else 
+	{
+		while (currentNode->next != NULL) 
+		{
 			previousNode = currentNode;
 			currentNode = currentNode->next;
 		}
@@ -62,46 +84,59 @@ int deleteLastNode() {
 	}
 	return (0);
 }
-int insertNodeAfter(int data, int previousData) {
+int insertNodeAfter(int data, int previousData) 
+{
 	struct node *newptr = newNode(), *currentNode = HEADER;
-	while (currentNode->data != previousData && currentNode->next != NULL) {
+	while (currentNode->data != previousData && currentNode->next != NULL) 
+	{
 		currentNode = currentNode->next;
 	}
-	if (currentNode->data != previousData) {
+	if (currentNode->data != previousData) 
+	{
 		printf("Node not found.\nInsertion Failed\n");
-	} else {
+	} 
+	else 
+	{
 		newptr->next = currentNode->next;
 		newptr->data = data;
 		currentNode->next = newptr;
 	}
 	return (0);
 }
-int insertNodeBefore(int data, int nextData) {
+int insertNodeBefore(int data, int nextData) 
+{
 	struct node *newptr = newNode(), *currentNode = HEADER, *previousNode;
-	while (currentNode->data != nextData && currentNode->next !=NULL) {
+	while (currentNode->data != nextData && currentNode->next !=NULL) 
+	{
 		previousNode = currentNode;
 		currentNode = currentNode->next;
 	}
-	if (currentNode->data != nextData) {
+	if (currentNode->data != nextData) 
+	{
 		printf("Node not found.\nInsertion Failed\n");
-	} else {
+	} 
+	else 
+	{
 		newptr->next = previousNode->next;
 		newptr->data = data;
 		previousNode->next = newptr;
 	}
 	return (0);
 }
-int insertNodeFront(int data) {
+int insertNodeFront(int data) 
+{
 	struct node *newptr = newNode();
 	newptr->next = HEADER->next;
 	newptr->data = data;
 	HEADER->next = newptr;
 	return (0);
 }
-int insertNodeEnd(int data) {
+int insertNodeEnd(int data) 
+{
 	struct node *newptr = newNode(), *currentNode = HEADER;
 
-	while (currentNode->next != NULL) {
+	while (currentNode->next != NULL) 
+	{
 		currentNode = currentNode->next;
 	}
 
@@ -111,10 +146,12 @@ int insertNodeEnd(int data) {
 	return (0);
 }
 
-int printLinkedList() {
+int printLinkedList() 
+{
 	struct node *currentNode = HEADER->next;
 	printf("\nLinked List\nHEADER->");
-	while (currentNode != NULL) {
+	while (currentNode != NULL) 
+	{
 		printf("%d->", currentNode->data);
 		currentNode = currentNode->next;
 	}
@@ -122,10 +159,12 @@ int printLinkedList() {
 	return (0);
 }
 
-int showMenu() {
+int showMenu() 
+{
 	char choice='1';
 	int data, previousData, nextData;
-	while(choice != '0') {
+	while(choice != '0') 
+	{
 		printf("\n\tLINKED LIST\n");
 		printf("1. Insert at Front\n");
 		printf("2. Insert before\n");
@@ -192,7 +231,8 @@ int showMenu() {
 	}
 	return (0);
 }
-int main() {
+int main() 
+{
 	// initialize Linked List
 	HEADER = malloc(sizeof(struct node));
 	HEADER->data = 0;
