@@ -1,3 +1,8 @@
+/*Nithya Venugopal
+  S3 D 39
+  Sequential Search*/
+
+
 #include<stdio.h>
 void main()
 {
