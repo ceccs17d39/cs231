@@ -1,3 +1,6 @@
+/*Nithya Venugopal
+  S3 D 39
+  Heap Sort*/
 #include<stdio.h>
 void main()
 {
