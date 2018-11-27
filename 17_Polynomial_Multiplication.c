@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Polynomial multiplication*/
+
 #include<stdio.h>
 #include<stdlib.h
 struct node
