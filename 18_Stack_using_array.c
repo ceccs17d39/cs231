@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Implementation of stack using array*/
+
 #include <stdio.h>
 
 int stack[100], n=100, top;
