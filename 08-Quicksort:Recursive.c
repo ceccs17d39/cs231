@@ -1,15 +1,23 @@
+/*Nithya Venugopal
+  S3 D 39
+  Quicksort:recursive*/
+
+
 #include <stdio.h>
 
-void swap(int *a, int *b) {
+void swap(int *a, int *b) 
+{
 	int temp = *a;
 	*a = *b;
 	*b = temp;
 }
-int partition(int array[], int low, int high) {
+int partition(int array[], int low, int high) 
+{
 	int i=low;
 	int j=high;
 	int pivot=array[low];
-	while (1) {
+	while (1) 
+	{
 		while (array[i] < pivot)
 			i++;
 		while (array[j] > pivot)
@@ -19,21 +27,26 @@ int partition(int array[], int low, int high) {
 		swap(&array[i], &array[j]);
 	}
 }
-void quickSort(int array[], int low, int high) {
+void quickSort(int array[], int low, int high) 
+{
 	int partitionIndex;
-	if (low < high) {
+	if (low < high) 
+	{
 		partitionIndex = partition(array, low, high);
 		quickSort(array, low, partitionIndex);
 		quickSort(array, partitionIndex+1, high);
 	}
 }
-int printArray(int a[], int size) {
+int printArray(int a[], int size) 
+{
 	int i=0;
-	for (i=0; i<size; i++) {
+	for (i=0; i<size; i++) 
+	{
 		printf("%d\n", a[i]);
 	}
 }
-int main() {
+int main() 
+{
 	int array[100], i, size;
 	printf("Enter size of the array : ");
 	scanf("%d", &size);
