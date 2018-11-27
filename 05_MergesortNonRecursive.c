@@ -1,3 +1,8 @@
+/*Nithya Venugopal
+  S3 D 39
+  Merge sort:Non-recursive*/
+
+
 #include<stdio.h>
 #define max 25
 int main()
@@ -21,8 +26,8 @@ int main()
 			y2=x2+size-1;
 			if(y2>=n) 
 				y2=n-1;
-			i=x1;
-            j=x2;
+				i=x1;
+            			j=x2;
 			while(i<=y1&&j<=y2)
 			{
 				if(a[i]<=a[j] )
