@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Polynomial addition*/
+
 #include <stdio.h>
 #include <stdlib.h>
 struct node {
