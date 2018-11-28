@@ -1,3 +1,6 @@
+/*Nithya Venugopal
+  S3 D 39
+  Implementation of Stack using LL*/
 #include <stdio.h>
 #include <stdlib.h>
 
