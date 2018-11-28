@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Representation of arithmetic expression*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
