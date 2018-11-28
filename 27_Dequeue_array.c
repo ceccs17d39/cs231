@@ -1,7 +1,9 @@
+/*Nithya Venugopal
+  S3 D 39
+  Implementation of queue using array*/
+
 #include <stdio.h>
-
 int queue[100], n=100, front=-1, rear=-1;
-
 void enqueueRear() {
 	int data;
 	if (rear == n-1) {
