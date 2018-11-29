@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Implementation of Dequeue using LL*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
