@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Multiple stack using array*/
+
 #include <stdio.h>
 #define size 100
 
