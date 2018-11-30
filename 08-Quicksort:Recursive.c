@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Quicksort:recursive*/
+  8_Quicksort:recursive*/
 
 
 #include <stdio.h>
@@ -57,3 +57,18 @@ int main()
 	quickSort(array, 0, size-1);
 	printArray(array, size);
 }
+
+Output
+Enter size of the array : 5
+Enter array elements
+45
+43
+32
+11
+87
+Sorted Array
+11
+32
+43
+45
+87
