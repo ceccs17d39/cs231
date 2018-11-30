@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Implementation of stack using array*/
+  18_Implementation of stack using array*/
 
 #include <stdio.h>
 
@@ -62,3 +62,33 @@ int main() {
 		}
 	} while (ans != '4');
 }
+Output
+	Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 1
+Enter data to be pushed : 34
+
+
+	Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 1
+Enter data to be pushed : 2
+
+
+	Stack Using array
+1. Push
+2. Pop
+3. Display
+4. Exit
+Enter your choice : 3
+
+
+Stack contents
+2
+34
