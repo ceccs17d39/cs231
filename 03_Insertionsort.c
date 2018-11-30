@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Insertion Sort*/
+  3_Insertion Sort*/
 
 
 #include<stdio.h>
@@ -30,6 +30,19 @@ void main()
 	for(i=0; i<n; i++)
 		{
 	  	    	printf("%d",ar[i]);
+		        printf("\n");
 		}
 
 }
+
+Output
+Enter the size:4
+Enter the elements23
+45
+34
+11
+After Sorting 
+11
+23
+34
+45
