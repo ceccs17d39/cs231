@@ -216,3 +216,82 @@ int main() {
 	showMenu();
 	return (0);
 }
+
+Output
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 1
+
+Enter new data : 5
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 1
+
+Enter new data : 2
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+NULL<-HEADER<->2<->5->NULL
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 6
+
+
+
+	Doubly Linked List
+1. Insert at Front
+2. Insert before
+3. Insert after
+4. Insert at End
+5. Print Linked List
+6. Delete first node
+7. Delete node
+8. Delete last node
+9. Delete all
+0. Exit
+Enter your choice : 5
+
+NULL<-HEADER<->5->NULL
