@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Representation of polynomial using LL*/
+  15_Representation of polynomial using LL*/
 
 
 #include <stdio.h>
@@ -91,3 +91,21 @@ int main() {
 	deleteAll();
 	return (0);
 }
+
+Output
+Enter coefficient : 3
+Enter exponent : 2
+
+1. Add more terms
+2. Print and exit
+Enter your choice : 1
+
+Enter coefficient : 5
+Enter exponent : 1
+
+1. Add more terms
+2. Print and exit
+Enter your choice : 2
+
+
+F(p) = 3p^2 + 5p^1
