@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D/* 39
-  Bubblesort*/
+  4_Bubblesort*/
 
 
 #include <stdio.h>
@@ -38,3 +38,18 @@ int main()
 		printf("%d\n", array[i]);
 	}
 }
+
+Output
+Enter number of elements in the array : 5
+Enter the array
+34
+23
+31
+10
+6
+Sorted array 
+6
+10
+23
+31
+34
