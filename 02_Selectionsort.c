@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Selection Sort*/
+  2_Selection Sort*/
 
 
 #include <stdio.h>
@@ -44,3 +44,18 @@ int main()
 		printf("%d\n", array[i]);
 	}
 }
+
+Output
+Enter number of elements in the array : 5
+Enter the array
+43
+32
+12
+56
+3
+Sorted array 
+3
+12
+32
+43
+56
