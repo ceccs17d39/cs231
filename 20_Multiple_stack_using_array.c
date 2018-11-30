@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Multiple stack using array*/
+  20_Multiple stack using array*/
 
 #include <stdio.h>
 #define size 100
@@ -108,3 +108,49 @@ int main() {
 		}
 	} while (ans != '7');
 }
+
+Output
+	Two Stack Using array
+	Beg Stack
+1. Beg Push
+2. Beg Pop
+3. Beg Display
+	End Stack
+4. End Push
+5. End Pop
+6. End Display
+7. Exit
+Enter your choice : 1
+Enter data to be pushed : 5
+
+
+	Two Stack Using array
+	Beg Stack
+1. Beg Push
+2. Beg Pop
+3. Beg Display
+	End Stack
+4. End Push
+5. End Pop
+6. End Display
+7. Exit
+Enter your choice : 1
+Enter data to be pushed : 6
+
+
+	Two Stack Using array
+	Beg Stack
+1. Beg Push
+2. Beg Pop
+3. Beg Display
+	End Stack
+4. End Push
+5. End Pop
+6. End Display
+7. Exit
+Enter your choice : 3
+
+
+Stack contents
+6
+5
