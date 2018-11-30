@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Binary tree using LL*/
+
 #include<stdio.h>
 #include<stdlib.h>
 struct tree
@@ -224,3 +228,38 @@ struct tree *search(struct tree *root)
    printf("\n Element %d does not exist in the binary tree",no);
  return(root);
 }
+Output
+	 1. Insert in Binary Tree  
+	 2. Delete from Binary Tree 
+	 3. Inorder traversal of Binary tree
+	 4. Postorder traversal of Binary tree
+	 5. Preorder traversal of Binary tree
+	 6. Search and replace 
+	 7. Exit 
+	 Enter choice : 1
+
+ Enter new element: 5
+
+ root is 5
+ Inorder traversal of binary tree is :  5
+ 	 1. Insert in Binary Tree  
+	 2. Delete from Binary Tree 
+	 3. Inorder traversal of Binary tree
+	 4. Postorder traversal of Binary tree
+	 5. Preorder traversal of Binary tree
+	 6. Search and replace 
+	 7. Exit 
+	 Enter choice : 1
+
+ Enter new element: 6
+
+ root is 5
+ Inorder traversal of binary tree is :  5 6
+ 	 1. Insert in Binary Tree  
+	 2. Delete from Binary Tree 
+	 3. Inorder traversal of Binary tree
+	 4. Postorder traversal of Binary tree
+	 5. Preorder traversal of Binary tree
+	 6. Search and replace 
+	 7. Exit 
+	 Enter choice : 3
