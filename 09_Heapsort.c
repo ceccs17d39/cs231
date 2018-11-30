@@ -1,6 +1,7 @@
 /*Nithya Venugopal
   S3 D 39
-  Heap Sort*/
+  9_Heap Sort*/
+
 #include<stdio.h>
 void main()
 {
@@ -62,3 +63,13 @@ void main()
     }
     
 }
+
+Output
+enter the number of elements:4
+
+ enter the numbers:23
+12
+8
+34
+heap array:34	23	8	12	
+ the sorted array is:12	8	23	34	
