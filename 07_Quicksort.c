@@ -1,6 +1,6 @@
 /*Nithya Veugopal
   S3 D 39
-  Quicksort*/
+  7_Quicksort*/
 
 #include <stdio.h>
 
@@ -48,3 +48,18 @@ int main() {
 	quickSort(array, 0, size-1);
 	printArray(array, size);
 }
+
+Output
+Enter size of the array : 5
+Enter array elements
+23
+12
+45
+3
+4
+Sorted Array
+3
+4
+12
+23
+45
