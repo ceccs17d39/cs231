@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Representation of arithmetic expression*/
+  21_Representation of arithmetic expression*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -72,3 +72,6 @@ int main() {
 	
 	return (0);
 }
+Output
+Enter arithmatic expression : 3a+b
+Entered experssion : 3a+b
