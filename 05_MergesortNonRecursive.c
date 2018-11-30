@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Merge sort:Non-recursive*/
+  5_Merge sort:Non-recursive*/
 
 
 #include<stdio.h>
@@ -48,6 +48,23 @@ int main()
 	}
         printf("Sorted list is :\n");
         for(i=0;i<n;i++)
+	{
 		printf("%d",a[i]);
+		printf("\n");
+	}
 	return 0;
 }
+
+Output
+enter the number of elements:5
+enter the elements34
+21
+11
+23
+8
+Sorted list is :
+8
+11
+21
+23
+34
