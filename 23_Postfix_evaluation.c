@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Postfix evaluation*/
+
 #include <stdio.h>
 #include <stdlib.h>
 int power(int base, int exponent) {
@@ -47,3 +51,6 @@ int main() {
   }
   printf("%d\n", stack[top]);
 }
+Output
+Enter the postfix expression : 23+5/
+1
