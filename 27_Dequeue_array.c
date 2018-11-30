@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Implementation of queue using array*/
+  27_Implementation of queue using array*/
 
 #include <stdio.h>
 int queue[100], n=100, front=-1, rear=-1;
@@ -100,3 +100,43 @@ int main() {
 		}
 	} while(choice != '6');
 }
+Output
+	Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 1
+Enter data to be inserted : 5
+
+	Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 1
+Failed: No space at front
+
+	Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 3
+Deleted element : 5
+
+	Queue using array
+1.Enqueue Front
+2.Enqueue Rear
+3.Dequeue Front
+4.Dequeue Rear
+5.Display
+6.Exit
+Enter your choice : 5
+Empty Queue
