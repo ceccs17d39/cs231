@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Merge sort:recursive*/
+  6_Merge sort:recursive*/
 
 
 #include <stdio.h>
@@ -69,3 +69,19 @@ int main()
 	printf("\nSorted Array\n");
 	printArray(a, size);
 }
+
+Output
+Enter size of the array : 5
+Enter array
+23
+12
+32
+11
+8
+
+Sorted Array
+8
+11
+12
+23
+32
