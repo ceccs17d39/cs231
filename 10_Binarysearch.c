@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Binary Search*/
+  10_Binary Search*/
 
 
 #include<stdio.h>
@@ -36,3 +36,11 @@ int main()
 		printf("Element doesnt exist \n");
 	return 0;
 } 
+
+Output
+Enter the size3
+Enter elements12
+23
+34
+Enter the element to be searched:23
+element found at location 2 
