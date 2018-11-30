@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Implementation of queue using LL*/
+  29_Implementation of queue using LL*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -80,3 +80,104 @@ int main() {
 	} while(choice != '4');
   deleteAll();
 }
+OUTPUT:
+
+
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:1
+        enter data :4
+
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:1
+        enter data :4
+
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:1
+        enter data :6
+
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:3
+          ->4  ->4  ->6
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:2
+
+        enqueued elem is 4
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:3
+          ->4  ->6
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:4
+        no of elem in queue is 2
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:5
+
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+        enter choice:3
+
+        empty
+        1.enqueue
+        2.dequeue
+        3.display
+        4.count
+        5.delete_all
+        6.exit
+enter choice:6
