@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Sequential Search*/
+  1_Sequential Search*/
 
 
 #include<stdio.h>
