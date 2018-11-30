@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+  S3 D 39
+  Binary tree using array*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -38,6 +42,7 @@ void insert() {
 	if (binaryTree[0] == -1) {
 		printf("Enter data to be inserted : ");
 		scanf("%d", &data);
+		
 		binaryTree[0] = data;
 		printf("Successfully inserted\n");
 	} else {
@@ -137,3 +142,34 @@ int main() {
 	initialise();
 	showMenu();
 }
+Output
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data to be inserted : 23
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 1
+Enter data of the parent node : 23
+Enter data to be inserted : 5
+Where do you want to enter the data (L/R): l
+Successfully inserted
+
+	Binary Tree
+1. Insert
+2. Search
+3. Delete
+4. Print
+5. Exit
+Enter your choice : 4
+ 5 23
