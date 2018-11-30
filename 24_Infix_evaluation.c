@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  infix expression evaluation*/
+  24_infix expression evaluation*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -87,3 +87,6 @@ int main() {
   }
   printf("Final result : %d\n", operandStack[0]);
 }
+Output
+Enter the infix expression : (4+6)/2       
+Final result : 5
