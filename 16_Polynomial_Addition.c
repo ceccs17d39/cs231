@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Polynomial addition*/
+  16_Polynomial addition*/
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -137,3 +137,40 @@ int main() {
 	deleteAll(polynomial3);
 	return (0);
 }
+Output
+	Polynomial 1
+Enter coefficient : 23
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 2
+Enter exponent : 1
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+	Polynomial 2
+Enter coefficient : 42
+Enter exponent : 2
+
+1. Add more terms
+2. Continue
+Enter your choice : 1
+
+Enter coefficient : 15
+Enter exponent : 1
+
+1. Add more terms
+2. Continue
+Enter your choice : 2
+
+
+Adding polynomials
+P(x) = 23x^2 + 2x^1
+Q(x) = 42x^2 + 15x^1
+Sum
+R(x) = 44x^2 + 16x^1
