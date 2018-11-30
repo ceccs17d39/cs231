@@ -1,3 +1,7 @@
+/*Nithya Venugopal
+S3 D 39 
+Quicksort nonrecursive*/
+
 #include <stdio.h>
 
 void swap(int *a, int *b) {
@@ -53,3 +57,16 @@ int main() {
 	quickSortIterative(array, 0, size-1);
 	printArray(array, size);
 }
+
+Output
+Enter size of the array : 4
+Enter array elements
+45
+54
+65
+12
+Sorted Array
+12
+45
+54
+65
