@@ -1,9 +1,9 @@
 /*Nithya Venugopal
   S3 D 39
-  Polynomial multiplication*/
+  17_Polynomial multiplication*/
 
 #include<stdio.h>
-#include<stdlib.h
+#include<stdlib.h>
 struct node
 {
     int exp,coef;
@@ -146,3 +146,31 @@ void main()
     }
     printf("0\n");
 }
+Output
+First Polynomial 
+Enter coefficient: 2
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 3
+Enter exponent: 0
+1. Add more elements
+2. Continue
+Enter choice: 2
+
+
+Second polynomial 
+Enter coefficient: 2
+Enter exponent: 1
+1. Add more elements
+2. Continue
+Enter choice: 1
+Enter coefficient: 4
+Enter exponent: 0
+1. Add more elements
+2. Continue
+Enter choice: 2
+F(p) = 2 p1 + 3 p0 + 0
+F(q) = 2 q1 + 4 q0 + 0
+F(r) = 4 r2 + 14 r1 + 12 r0 + 0
