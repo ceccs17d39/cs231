@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Implementation of queue using array*/
+  26_Implementation of queue using array*/
 
 #include <stdio.h>
 
@@ -62,3 +62,28 @@ int main() {
 		}
 	} while(choice != '4');
 }
+Output
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 23
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 1
+Enter data to be entered : 5
+
+	Queue using array
+1.Enqueu
+2.Dequeue
+3.Display
+4.Exit
+Enter your choice : 3
+23
+5
