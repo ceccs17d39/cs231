@@ -1,6 +1,6 @@
 /*Nithya Venugopal
   S3 D 39
-  Stack:infix to postfix conversion*/
+  22_Stack:infix to postfix conversion*/
   
   
 #include <stdio.h>
@@ -64,3 +64,6 @@ int main () {
     printf("%c", stack[top--]);
   }
 }
+Output
+Enter the infix expression : (4+3)/2
+43+2/
