@@ -1,6 +1,7 @@
 /*Nithya Venugopal
   S3 D 39
-  Implementation of Stack using LL*/
+  19_Implementation of Stack using LL*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -102,3 +103,41 @@ int main() {
 	
 	return (0);
 }
+Output
+	LINKED LIST
+1. Push
+2. Pop
+3. Print
+4. Exit
+Enter your choice : 1
+
+Enter new data : 2
+
+	LINKED LIST
+1. Push
+2. Pop
+3. Print
+4. Exit
+Enter your choice : 1
+
+Enter new data : 4
+
+	LINKED LIST
+1. Push
+2. Pop
+3. Print
+4. Exit
+Enter your choice : 3
+
+
+Linked List
+TOP->4
+2
+
+
+	LINKED LIST
+1. Push
+2. Pop
+3. Print
+4. Exit
+Enter your choice : 4
